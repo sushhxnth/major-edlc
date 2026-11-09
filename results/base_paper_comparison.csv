@@ -1,0 +1,10 @@
+Model,Task,Accuracy (%),Precision (%),Recall (%),F1-Score (%)
+SNN (Base Paper Ref),Person Identification,98.41,97.22,96.59,96.91
+DAA-CNN (Base Paper),Person Identification,99.2,98.05,97.36,97.71
+PHCSN (Base Paper),Person Identification,99.24,99.24,99.12,99.18
+SSA-RTNet (Base Paper),Person Identification,99.8,99.61,99.56,99.58
+Proposed Hybrid SSA-ArcFace (Ours),Person Identification,99.85,99.85,99.76,99.77
+DAA-CNN (Base Paper),Gender Classification,98.8,98.05,97.36,97.71
+PHCSN (Base Paper),Gender Classification,99.28,98.55,98.27,98.41
+SSA-RTNet (Base Paper),Gender Classification,99.4,99.64,99.59,99.59
+Proposed Hybrid SSA-ArcFace (Ours),Gender Classification,100.0,100.0,100.0,100.0
