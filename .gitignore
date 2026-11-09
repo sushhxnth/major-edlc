@@ -19,3 +19,4 @@ venv/
 !gallery/*.npz
 !results/*
 !sample_demo_images/*
+gallery/registry.json
