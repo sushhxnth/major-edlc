@@ -1,0 +1,21 @@
+# Ignore heavy raw datasets
+data/
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Ignore Python cache & virtual environments
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+
+# Keep trained checkpoints, gallery, results, and MediaPipe task for teammate's laptop!
+!checkpoints/*.pt
+!gallery/*.json
+!gallery/*.npz
+!results/*
+!sample_demo_images/*
